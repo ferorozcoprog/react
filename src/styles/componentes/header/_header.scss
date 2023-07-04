@@ -1,8 +1,23 @@
 .header {
     display: flex;
     align-items: center;
-    gap: 4rem;
-    
-    
+    gap: 4rem;   
 margin: 3rem 0 0 1rem;}
 
+.header__h1{
+    justify-items: center;
+    font-size: 60px;
+    color: blue;
+    
+}
+
+.navbar{
+    background-color: grey;
+    padding: 5px;
+}
+
+
+.navbar__link{
+    font-size: small;
+
+}

@@ -1,6 +1,6 @@
 import { Header } from "./components/Header/Header"
-import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
-import "./styles.styles.scss"
+import  {ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
+import "./styles/styles.scss"
 
 function App() {
   

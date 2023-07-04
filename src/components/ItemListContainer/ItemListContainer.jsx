@@ -1,5 +1,4 @@
 
-import "./ItemListcontainer.scss"
 export const ItemListContainer = ({notificacion}) =>{
 
     return(
