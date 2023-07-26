@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camisa 1",
+        "descripcion": "Descripcion producto 1",
+        "precio": 120,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "Primer Equipo"
+    },
+    {
+        "id": 2,
+        "nombre": "Camisa 2",
+        "descripcion": "Descripcion producto 2",
+        "precio": 110,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "Primer equipo"
+    },
+    {
+        "id": 3,
+        "nombre": "Camisa 3",
+        "descripcion": "Descripcion producto 3",
+        "precio": 95,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "6 a 8 años"
+    },
+    {
+        "id": 4,
+        "nombre": "medias largas",
+        "descripcion": "Descripcion producto 4",
+        "precio": 15,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "segundo equipo"
+    },
+    {
+        "id": 5,
+        "nombre": "Short ",
+        "descripcion": "Descripcion producto 5",
+        "precio": 35,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "segundo equipo"
+    },
+    {
+        "id": 6,
+        "nombre": "Sueter",
+        "descripcion": "Descripcion producto 6",
+        "precio": 75,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "segundo equipo"
+    }
+    
+]

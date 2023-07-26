@@ -1,12 +1,26 @@
+import "../../styles/componentes/ItemListContainer/_ItemListContainer.scss";
+import { pedirDatos } from "../../helpers/pedirDatos";
+import { ItemList } from "../ItemList/ItemList";
 
-export const ItemListContainer = ({notificacion}) =>{
+import React, { useEffect, useState } from 'react';
 
-    return(
+export const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    
+    useEffect ( () => {
+        pedirDatos()
+            .then((res) => {
+                setProductos(res)
 
+            })    
+            .catch((error) => {
+                console.log(error)
+            })
+    }, [])
+
+    return (
         <div>
-            <h2>listado de productos</h2>
-            <h3>{notificacion} </h3>
+             <ItemList productos={productos}/>
         </div>
     )
-
 }
