@@ -1,51 +1,30 @@
 [
     {
         "id": 1,
-        "nombre": "Camisa 1",
-        "descripcion": "Descripcion producto 1",
+        "nombre": "Camiseta 1era equipación",
+        "descripcion": "Camiseta del mejor equipo del mundo de 1era. equipación",
         "precio": 120,
         "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "Primer Equipo"
+        "category": "1erEpuipo",
+        "stock": 12
     },
     {
         "id": 2,
-        "nombre": "Camisa 2",
-        "descripcion": "Descripcion producto 2",
+        "nombre": "Camiseta 2da equipación",
+        "descripcion": "Camiseta del mejor equipo del mundo de 2da. equipación",
         "precio": 110,
         "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "Primer equipo"
+        "category": "2doEpuipo",
+        "stock": 14
     },
     {
         "id": 3,
-        "nombre": "Camisa 3",
-        "descripcion": "Descripcion producto 3",
+        "nombre": "Camiseta 3era equipación",
+        "descripcion": "Camiseta del mejor equipo del mundo de 3era. equipación",
         "precio": 95,
         "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "6 a 8 años"
-    },
-    {
-        "id": 4,
-        "nombre": "medias largas",
-        "descripcion": "Descripcion producto 4",
-        "precio": 15,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "segundo equipo"
-    },
-    {
-        "id": 5,
-        "nombre": "Short ",
-        "descripcion": "Descripcion producto 5",
-        "precio": 35,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "segundo equipo"
-    },
-    {
-        "id": 6,
-        "nombre": "Sueter",
-        "descripcion": "Descripcion producto 6",
-        "precio": 75,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "categoria": "segundo equipo"
+        "category": "3erEpuipo",
+        "stock": 9
     }
     
 ]

@@ -1,10 +1,10 @@
-import Mock_Data from "../Data/Mock_Data.json";
+import MOCK_DATA from "../data/MOCK_DATA.json";
 
 export const pedirDatos = () =>{
     return new Promise((resolve, reject) => {
     // cuerpo de la promesa
     setTimeout (() => {
-            resolve(Mock_Data)
-        }, 2000)        
+            resolve(MOCK_DATA)
+        }, 500)        
     })
 }
